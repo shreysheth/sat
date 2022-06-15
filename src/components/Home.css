@@ -1,0 +1,64 @@
+.home {
+	width: 100%;
+	background-image: url("./img/hero-bg.jpeg");
+	background-size: cover;
+	height: fit-content;
+	z-index: 0;
+	background-repeat: no-repeat;
+}
+
+.logo-main {
+	width: 50vw;
+}
+
+.home-inner {
+	margin-top: 5rem;
+	padding: 3%;
+	justify-content: center;
+	text-align: center;
+}
+
+.company-name {
+	padding: 3%;
+	color: #ef7f1a;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.company-name span {
+	font-size: 6rem;
+	color: red;
+}
+
+.grid-box {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid: 1/6;
+	column-gap: 3rem;
+}
+
+.hero-usp {
+	border: red 2px solid;
+	border-radius: 15px 0;
+	padding: 3%;
+	background-color: rgba(225, 165, 0, 0.2);
+}
+
+.hero-usp p {
+	color: red;
+	font-size: 150%;
+}
+
+@media (max-width: 998px) {
+	.grid-box {
+		grid-template-columns: auto auto;
+		row-gap: 3rem;
+	}
+}
+
+@media (max-width: 798px) {
+	.grid-box {
+		grid-template-columns: auto;
+		row-gap: 3rem;
+	}
+}
