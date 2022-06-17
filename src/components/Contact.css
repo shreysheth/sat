@@ -5,6 +5,7 @@
 .contact-grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	gap: 10%;
 }
 
 .epa {
@@ -12,6 +13,7 @@
 	grid-template-rows: repeat(3, 1fr);
 	font-size: 130%;
 	color: #ef7f1a;
+	gap: 10%;
 }
 
 .epa a {
@@ -58,4 +60,22 @@
 }
 .social-media-telegram {
 	color: turquoise;
+}
+
+@media (max-width: 1000px) {
+	.contact-grid {
+		padding-top: 5rem;
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 20%;
+	}
+
+	.epa {
+		row-gap: 20%;
+	}
+
+	.social-links-grid {
+		padding-top: 8rem;
+		grid-template-columns: repeat(3, 1fr);
+		row-gap: 30%;
+	}
 }
