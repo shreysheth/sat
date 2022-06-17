@@ -85,25 +85,45 @@ const About = () => {
 			<div className="about-infographics">
 				<div className="counter">
 					<strong>
-						<CountUp className="countup" end={100} duration={2} />+
+						<CountUp
+							className="countup"
+							end={100}
+							duration={2}
+							enableScrollSpy
+						/>
+						+<p>counter here</p>
+					</strong>
+				</div>
+				<div className="counter">
+					<strong>
+						<CountUp
+							className="countup"
+							end={100}
+							duration={2}
+							enableScrollSpy
+						/>
 						<p>counter here</p>
 					</strong>
 				</div>
 				<div className="counter">
 					<strong>
-						<CountUp className="countup" end={100} duration={2} />
+						<CountUp
+							className="countup"
+							end={100}
+							duration={2}
+							enableScrollSpy
+						/>
 						<p>counter here</p>
 					</strong>
 				</div>
 				<div className="counter">
 					<strong>
-						<CountUp className="countup" end={100} duration={2} />
-						<p>counter here</p>
-					</strong>
-				</div>
-				<div className="counter">
-					<strong>
-						<CountUp className="countup" end={100} duration={2} />
+						<CountUp
+							className="countup"
+							end={100}
+							duration={2}
+							enableScrollSpy
+						/>
 						<p>counter here</p>
 					</strong>
 				</div>
