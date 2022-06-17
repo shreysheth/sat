@@ -4,7 +4,9 @@ import "./components/Navbar.css";
 import Home from "./components/Home";
 import "./components/Home.css";
 import "./components/About.css";
+import "./components/Contact.css";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
 	return (
@@ -17,6 +19,9 @@ function App() {
 			</section>
 			<section id="about">
 				<About />
+			</section>
+			<section id="contact">
+				<Contact />
 			</section>
 		</div>
 	);

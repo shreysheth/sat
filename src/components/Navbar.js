@@ -9,11 +9,13 @@ const Navbar = () => {
 		<div className="header">
 			<nav className="navbar-main">
 				<div className="logo-section">
-					<img
-						src={require("./img/satlogo.png")}
-						className="nav-logo"
-						alt="logo here"
-					/>
+					<a href="#">
+						<img
+							src={require("./img/satlogo.png")}
+							className="nav-logo"
+							alt="logo here"
+						/>
+					</a>
 				</div>
 				<div
 					className={
