@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sat/static/css/main.f4492da2.css",
-    "main.js": "/sat/static/js/main.41a94484.js",
+    "main.js": "/sat/static/js/main.ee633724.js",
     "static/js/787.75d3e9e0.chunk.js": "/sat/static/js/787.75d3e9e0.chunk.js",
     "static/media/hero-bg.jpeg": "/sat/static/media/hero-bg.271040c57aa5ce16cc5f.jpeg",
     "static/media/satlogo.png": "/sat/static/media/satlogo.a224754075643ff09866.png",
     "index.html": "/sat/index.html",
     "main.f4492da2.css.map": "/sat/static/css/main.f4492da2.css.map",
-    "main.41a94484.js.map": "/sat/static/js/main.41a94484.js.map",
+    "main.ee633724.js.map": "/sat/static/js/main.ee633724.js.map",
     "787.75d3e9e0.chunk.js.map": "/sat/static/js/787.75d3e9e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4492da2.css",
-    "static/js/main.41a94484.js"
+    "static/js/main.ee633724.js"
   ]
 }
