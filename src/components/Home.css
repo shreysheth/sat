@@ -3,7 +3,6 @@
 	background-image: url("./img/hero-bg.jpeg");
 	background-size: cover;
 	height: fit-content;
-	z-index: 0;
 	background-repeat: no-repeat;
 }
 

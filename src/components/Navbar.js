@@ -24,16 +24,44 @@ const Navbar = () => {
 				>
 					<ul>
 						<li>
-							<a href="#home">Home</a>
+							<a
+								href="#home"
+								onClick={() => {
+									setShowMediaIcons(!showMediaIcons);
+								}}
+							>
+								Home
+							</a>
 						</li>
 						<li>
-							<a href="#about">About</a>
+							<a
+								href="#about"
+								onClick={() => {
+									setShowMediaIcons(!showMediaIcons);
+								}}
+							>
+								About
+							</a>
 						</li>
 						<li>
-							<a href="#">Products</a>
+							<a
+								href="#"
+								onClick={() => {
+									setShowMediaIcons(!showMediaIcons);
+								}}
+							>
+								Products
+							</a>
 						</li>
 						<li>
-							<a href="#contact">Contact</a>
+							<a
+								href="#contact"
+								onClick={() => {
+									setShowMediaIcons(!showMediaIcons);
+								}}
+							>
+								Contact
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -56,12 +84,9 @@ const Navbar = () => {
 						</li>
 					</ul>
 					<div className="hamburger-menu">
-						<a
-							href="#"
-							onClick={() => setShowMediaIcons(!showMediaIcons)}
-						>
+						<p onClick={() => setShowMediaIcons(!showMediaIcons)}>
 							<RiMenu4Fill className="hamburger" />
-						</a>
+						</p>
 					</div>
 				</div>
 			</nav>
