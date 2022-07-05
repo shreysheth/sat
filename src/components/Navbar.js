@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { FaFacebook, FaYoutube } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { RiMenu4Fill } from "react-icons/ri";
+import { BsFillMoonStarsFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -83,6 +85,11 @@ const Navbar = () => {
 							<a href="#">
 								<FaYoutube className="youtube" />
 							</a>
+						</li>
+						<li>
+							<p>
+								<BsFillMoonStarsFill className="darkmode" />
+							</p>
 						</li>
 					</ul>
 					<div className="hamburger-menu">
