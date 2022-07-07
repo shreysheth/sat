@@ -11,13 +11,13 @@ const Navbar = () => {
 		<div className="header">
 			<nav className="navbar-main">
 				<div className="logo-section">
-					<a href="#">
+					<Link to="home">
 						<img
 							src={require("./img/satlogo.png")}
 							className="nav-logo"
 							alt="logo here"
 						/>
-					</a>
+					</Link>
 				</div>
 				<div
 					className={
@@ -28,44 +28,44 @@ const Navbar = () => {
 				>
 					<ul>
 						<li>
-							<a
-								href="#home"
+							<Link
+								to="home"
 								onClick={() => {
 									setShowMediaIcons(!showMediaIcons);
 								}}
 							>
 								Home
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a
-								href="#about"
+							<Link
+								to="about"
 								onClick={() => {
 									setShowMediaIcons(!showMediaIcons);
 								}}
 							>
 								About
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a
-								href="#"
+							<Link
+								to="product"
 								onClick={() => {
 									setShowMediaIcons(!showMediaIcons);
 								}}
 							>
 								Products
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a
-								href="#contact"
+							<Link
+								to="contact"
 								onClick={() => {
 									setShowMediaIcons(!showMediaIcons);
 								}}
 							>
 								Contact
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
@@ -86,11 +86,11 @@ const Navbar = () => {
 								<FaYoutube className="youtube" />
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<p>
 								<BsFillMoonStarsFill className="darkmode" />
 							</p>
-						</li>
+						</li> */}
 					</ul>
 					<div className="hamburger-menu">
 						<p onClick={() => setShowMediaIcons(!showMediaIcons)}>

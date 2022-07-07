@@ -15,24 +15,6 @@ const Contact = () => {
 	return (
 		<div className="contact">
 			<div className="contact-grid">
-				<div className="epa">
-					<div className="email">
-						<a href="mailto:satrajkot@outlook.com">
-							<MdMarkEmailRead /> satrajkot@outlook.com
-						</a>
-					</div>
-					<div className="phone">
-						<a href="tel:919427213631">
-							<FaPhoneAlt /> +91-94272-13631
-						</a>
-					</div>
-					<div className="address">
-						<HiLocationMarker /> 16, Bhaktinagar Station Plot,
-						Ambika Weighbridge Street, Rajkot - 360002
-					</div>
-
-					<div className="map-container"></div>
-				</div>
 				<div className="map">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59068.78314314857!2d70.73040993125001!3d22.285604599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cbcfbf3590c7%3A0x870745a27a0d4034!2sSHRI%20AMBIKA%20TOOLS!5e0!3m2!1sen!2sin!4v1655460331814!5m2!1sen!2sin"
@@ -41,6 +23,29 @@ const Contact = () => {
 						allowfullscreen=""
 						referrerpolicy="no-referrer-when-downgrade"
 					></iframe>
+				</div>
+				<div className="epa">
+					<div className="address">
+						<a
+							href="https://goo.gl/maps/CE3bwcdsyUN911si8"
+							target={"_blank"}
+						>
+							<HiLocationMarker /> 16, Bhaktinagar Station Plot,
+							Ambika Weighbridge Street, Rajkot - 360002
+						</a>
+					</div>
+					<div className="ep">
+						<div className="email">
+							<a href="mailto:satrajkot@outlook.com">
+								<MdMarkEmailRead /> satrajkot@outlook.com
+							</a>
+						</div>
+						<div className="phone">
+							<a href="tel:919427213631">
+								<FaPhoneAlt /> +91-94272-13631
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div className="social-links-grid">

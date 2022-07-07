@@ -11,7 +11,6 @@
 }
 
 .home-inner {
-	margin-top: 5rem;
 	padding: 3%;
 	justify-content: center;
 	text-align: center;
@@ -40,7 +39,6 @@
 	border: red 2px solid;
 	border-radius: 15px 0;
 	padding: 3%;
-	background-color: rgba(225, 165, 0, 0.2);
 }
 
 .hero-usp p {
